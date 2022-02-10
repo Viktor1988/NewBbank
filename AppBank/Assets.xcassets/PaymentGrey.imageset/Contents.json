@@ -1,0 +1,27 @@
+{
+  "images" : [
+    {
+      "filename" : "PaymentGrey.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "PaymentGrey2.png",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "PaymentGrey3.png",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "compression-type" : "automatic",
+    "template-rendering-intent" : "original"
+  }
+}

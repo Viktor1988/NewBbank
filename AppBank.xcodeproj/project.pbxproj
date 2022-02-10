@@ -7,15 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		812A240C27AD865300FA5051 /* InputSmsCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812A240B27AD865300FA5051 /* InputSmsCode.swift */; };
+		812A240E27AD93B800FA5051 /* PinCodeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812A240D27AD93B800FA5051 /* PinCodeViewController.swift */; };
 		813F938327AC2611006B8194 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F938227AC2611006B8194 /* AppDelegate.swift */; };
 		813F938527AC2611006B8194 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F938427AC2611006B8194 /* SceneDelegate.swift */; };
 		813F938727AC2611006B8194 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 813F938627AC2611006B8194 /* ViewController.swift */; };
 		813F938A27AC2611006B8194 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813F938827AC2611006B8194 /* Main.storyboard */; };
 		813F938C27AC2612006B8194 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 813F938B27AC2612006B8194 /* Assets.xcassets */; };
 		813F938F27AC2612006B8194 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 813F938D27AC2612006B8194 /* LaunchScreen.storyboard */; };
+		8148914327B5217100DD8FC9 /* SettingObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8148914227B5217100DD8FC9 /* SettingObject.swift */; };
+		8148914527B52EDF00DD8FC9 /* UILabel+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8148914427B52EDF00DD8FC9 /* UILabel+Extension.swift */; };
+		8148914727B52EEC00DD8FC9 /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8148914627B52EEC00DD8FC9 /* UIButton+Extension.swift */; };
+		8148914927B52F0300DD8FC9 /* UIStackView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8148914827B52F0300DD8FC9 /* UIStackView+Extension.swift */; };
+		8148914C27B52F9100DD8FC9 /* UIFont+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8148914B27B52F9100DD8FC9 /* UIFont+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		812A240B27AD865300FA5051 /* InputSmsCode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputSmsCode.swift; sourceTree = "<group>"; };
+		812A240D27AD93B800FA5051 /* PinCodeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCodeViewController.swift; sourceTree = "<group>"; };
 		813F937F27AC2611006B8194 /* AppBank.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppBank.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		813F938227AC2611006B8194 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		813F938427AC2611006B8194 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +33,11 @@
 		813F938B27AC2612006B8194 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		813F938E27AC2612006B8194 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		813F939027AC2612006B8194 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8148914227B5217100DD8FC9 /* SettingObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingObject.swift; sourceTree = "<group>"; };
+		8148914427B52EDF00DD8FC9 /* UILabel+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UILabel+Extension.swift"; sourceTree = "<group>"; };
+		8148914627B52EEC00DD8FC9 /* UIButton+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		8148914827B52F0300DD8FC9 /* UIStackView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIStackView+Extension.swift"; sourceTree = "<group>"; };
+		8148914B27B52F9100DD8FC9 /* UIFont+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,12 +73,27 @@
 				813F938227AC2611006B8194 /* AppDelegate.swift */,
 				813F938427AC2611006B8194 /* SceneDelegate.swift */,
 				813F938627AC2611006B8194 /* ViewController.swift */,
+				812A240B27AD865300FA5051 /* InputSmsCode.swift */,
+				812A240D27AD93B800FA5051 /* PinCodeViewController.swift */,
+				8148914227B5217100DD8FC9 /* SettingObject.swift */,
 				813F938827AC2611006B8194 /* Main.storyboard */,
 				813F938B27AC2612006B8194 /* Assets.xcassets */,
 				813F938D27AC2612006B8194 /* LaunchScreen.storyboard */,
 				813F939027AC2612006B8194 /* Info.plist */,
+				8148914A27B52F0B00DD8FC9 /* UIKit + Extension */,
 			);
 			path = AppBank;
+			sourceTree = "<group>";
+		};
+		8148914A27B52F0B00DD8FC9 /* UIKit + Extension */ = {
+			isa = PBXGroup;
+			children = (
+				8148914427B52EDF00DD8FC9 /* UILabel+Extension.swift */,
+				8148914827B52F0300DD8FC9 /* UIStackView+Extension.swift */,
+				8148914627B52EEC00DD8FC9 /* UIButton+Extension.swift */,
+				8148914B27B52F9100DD8FC9 /* UIFont+Extension.swift */,
+			);
+			path = "UIKit + Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +169,13 @@
 				813F938727AC2611006B8194 /* ViewController.swift in Sources */,
 				813F938327AC2611006B8194 /* AppDelegate.swift in Sources */,
 				813F938527AC2611006B8194 /* SceneDelegate.swift in Sources */,
+				8148914527B52EDF00DD8FC9 /* UILabel+Extension.swift in Sources */,
+				8148914327B5217100DD8FC9 /* SettingObject.swift in Sources */,
+				8148914927B52F0300DD8FC9 /* UIStackView+Extension.swift in Sources */,
+				8148914727B52EEC00DD8FC9 /* UIButton+Extension.swift in Sources */,
+				812A240E27AD93B800FA5051 /* PinCodeViewController.swift in Sources */,
+				8148914C27B52F9100DD8FC9 /* UIFont+Extension.swift in Sources */,
+				812A240C27AD865300FA5051 /* InputSmsCode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
