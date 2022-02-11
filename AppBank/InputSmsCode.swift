@@ -74,6 +74,10 @@ class InputSmsCode: UIViewController {
     @objc
     func enterButtonAction() {
         print(#function)
+        let vc = PinCodeViewController()
+        vc.modalTransitionStyle = .coverVertical
+        vc.modalPresentationStyle = .fullScreen
+        present(vc.self, animated: true, completion: nil)
     }
     
 

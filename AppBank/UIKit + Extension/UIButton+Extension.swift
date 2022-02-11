@@ -14,12 +14,19 @@ extension UIButton {
          background: UIColor,
          font: UIFont? = .avenir20(),
          isShadow: Bool = true,
-         cornerRadius: CGFloat = 40) {
+         cornerRadius: CGFloat = 40,
+         size: CGFloat) {
         self.init(type: .system)
-        setTitle(title, for: .normal)
-        setTitleColor(tintColor, for: .normal)
+        self.setTitle(title, for: .normal)
+        self.setTitleColor(tintcolor, for: .normal)
         self.backgroundColor = background
         self.layer.cornerRadius = cornerRadius
+        
+        NSLayoutConstraint.activate([
+            self.widthAnchor.constraint(equalToConstant: size),
+            self.heightAnchor.constraint(equalToConstant: size)
+        ])
+
         
         if isShadow {
             self.layer.shadowColor = UIColor.lightGray.cgColor
@@ -28,4 +35,12 @@ extension UIButton {
             self.layer.shadowOffset = CGSize(width: 0, height: 9)
         }
     }
+    
+//    func enterPinCode(index: Int, array: [UIView]) {
+//        array[index].backgroundColor = .green
+//        
+//    }
 }
+
+
+

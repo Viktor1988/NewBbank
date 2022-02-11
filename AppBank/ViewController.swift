@@ -99,6 +99,10 @@ class ViewController: UIViewController {
     @objc
     private func enterButtonAction() {
         print(#function)
+            let vc = InputSmsCode()
+        vc.modalTransitionStyle = .coverVertical
+        vc.modalPresentationStyle = .fullScreen
+        present(vc.self, animated: true, completion: nil)
     }
 
     
